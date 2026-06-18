@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amigo secreto</title>
+</head>
+<body>
+    <header class="cabecalho"> 
+        <div class="titulo-area">
+            <h1> amigo secreto </h1>
+        </div>
+        <div class="IMAGEM area"> 
+            <img src="assets/amigo-secreto,png" alt="imagem amigo secreto" >
+              </div>
+    </header>
+    <main class="comteudo"> 
+        <section class="cadrasto">  
+            <h2> digite o nome do seus amigos</h2>
+
+            <div class="campo-input">
+                <input
+                type="text"
+                id="nomeAmigo"
+                placeholder="digite um nome"
+                >
+               <input type="text" id="nomeAmigo" placeholder="Digite um nome">
+
+                        <button onclick="adicionarAmigo()">
+                            Adicionar
+                        </button>
+                          <ul id="listaAmigos"></ul>
+            </div>
+            <ul id="listaAmigos">
+                <!-- nomes adicionados aparecen aqui-->
+            </ul>
+        </section>
+        <section class="sorteio">
+            <button id="btnSortear">
+                sortear Amigo 
+            </button>
+            <p id="resutado">
+                <!-- resutado do sorteio-->
+            </p>
+        </section>
+
+    </main>
+     <script src="scrpt.js"></script>
+</body>
+</html>
