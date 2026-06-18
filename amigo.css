@@ -9,9 +9,9 @@ body {
     background-color: #ffffff;
 }
 
-/* Cabeçalho roxo */
+/* Cabeçalho vermelho */
 .cabecalho {
-    background-color: #4b2aad;
+    background-color: #f5585f;
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -28,7 +28,7 @@ body {
 
 /* Conteúdo principal */
 .conteudo {
-    background-color: #f5f5f5;
+    background-color: #740202;
     margin-top: -20px;
     border-radius: 30px 30px 0 0;
     padding: 40px 20px;
@@ -38,7 +38,7 @@ body {
 /* Subtítulo */
 .cadastro h2 {
     text-align: center;
-    color: #4b2aad;
+    color: #fffdfd;
     margin-bottom: 30px;
 }
 
@@ -89,7 +89,7 @@ body {
 
 #btnSortear {
     background-color: #ff9800;
-    color: white;
+    color: rgb(71, 28, 170);
     border: none;
     padding: 15px 25px;
     border-radius: 25px;
@@ -103,7 +103,8 @@ body {
 
 #resultado {
     margin-top: 20px;
-    font-size: 22px;
+    text-align: center;
+    font-size: 24px;
     font-weight: bold;
     color: green;
 }
